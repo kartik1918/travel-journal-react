@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    height: 55px;
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+    color: #fff;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  width: 550px;
+  padding: 40px;
+  margin: 0 auto; 
+}
+
+.content-img {
+    width: 130px;
+    height: 180px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.trip-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-location {
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    display: flex;
+    column-gap: 3.5px;
+}
+
+.content-maps {
+    text-transform: none;
+    text-decoration-line: underline;
+    color: #918E9B;
+    letter-spacing: 0.3px;
+    margin-left: 15px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #2B283A;
+}
+
+.content-date {
+    font-size: 10.24px;
+    font-weight: bold;
+    color: #2B283A;
+}
+
+.content-description {
+    font-size: 10.24px;
+    line-height: 15px;
+}
+
+hr {
+    border: 1px solid #F5F5F5;
+    text-align: center;
+    width: 470px;
+}
